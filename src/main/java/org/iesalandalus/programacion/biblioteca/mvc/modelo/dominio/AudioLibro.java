@@ -18,7 +18,9 @@ public class AudioLibro extends Libro {
 		duracion = libro.getDuracion();
 	}
 
-	
+	public String getAutor() {
+		return autor;
+	}
 
 	public int getDuracion() {
 		return duracion;

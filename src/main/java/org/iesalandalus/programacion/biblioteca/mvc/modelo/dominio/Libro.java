@@ -1,11 +1,10 @@
 package org.iesalandalus.programacion.biblioteca.mvc.modelo.dominio;
 
-import java.io.Serializable;
 import java.util.Objects;
 
 import javax.naming.OperationNotSupportedException;
 
-public abstract class Libro implements Serializable {
+public abstract class Libro {
 
 	protected String titulo;
 	protected String autor;

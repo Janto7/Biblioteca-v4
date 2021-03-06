@@ -21,7 +21,13 @@ public class LibroEscrito extends Libro {
 		numPaginas = libro.getNumPaginas();
 	}
 
-	
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public String getAutor() {
+		return autor;
+	}
 
 	public int getNumPaginas() {
 		return numPaginas;

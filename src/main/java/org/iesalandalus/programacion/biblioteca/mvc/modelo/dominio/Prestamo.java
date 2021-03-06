@@ -1,12 +1,11 @@
 package org.iesalandalus.programacion.biblioteca.mvc.modelo.dominio;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
-public class Prestamo implements Serializable{
+public class Prestamo {
 
 	private static final int MAX_DIAS_PRESTAMO = 20;
 	public static final DateTimeFormatter FORMATO_FECHA = DateTimeFormatter.ofPattern("dd/MM/yyyy");
