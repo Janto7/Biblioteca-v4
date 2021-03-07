@@ -26,7 +26,7 @@ import org.iesalandalus.programacion.biblioteca.mvc.modelo.negocio.IPrestamos;
 
 public class Prestamos implements IPrestamos {
 	
-	private static final String NOMBRE_FICHERO_PRESTAMOS = "datos/alumnos.dat";
+	private static final String NOMBRE_FICHERO_PRESTAMOS = "datos/prestamos.dat";
 
 	private List<Prestamo> coleccionPrestamos;
 
