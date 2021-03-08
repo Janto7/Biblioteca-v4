@@ -20,6 +20,8 @@ public class MainApp {
 
 }
 
+// Tarea finalizada, ficheros funcionando(leyendo y escribiendo)
+
 /*
 Tarea: Biblioteca IES Al-Ándalus
 Profesor: José Ramón Jiménez Reyes

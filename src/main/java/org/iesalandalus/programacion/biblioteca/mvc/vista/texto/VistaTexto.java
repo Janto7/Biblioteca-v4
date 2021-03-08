@@ -99,7 +99,7 @@ public class VistaTexto implements IVista {
 	public void buscarLibro() {
 		Consola.mostrarCabecera("Buscar Libro");
 		try {
-			Libro libro = controlador.buscar(Consola.leerLibroFicticio());
+			Libro libro = controlador.buscar(Consola.leerLibro());
 			String mensaje = (libro != null) ? libro.toString() : "No existe dicho libro.";
 			System.out.println(mensaje);
 		} catch (IllegalArgumentException e) {
@@ -110,7 +110,7 @@ public class VistaTexto implements IVista {
 	public void borrarLibro() {
 		Consola.mostrarCabecera("Borrar Libro");
 		try {
-			controlador.borrar(Consola.leerLibroFicticio());
+			controlador.borrar(Consola.leerLibro());
 			System.out.println("Libro borrado satisfactoriamente.");
 		} catch (OperationNotSupportedException | IllegalArgumentException e) {
 			System.out.println(e.getMessage());

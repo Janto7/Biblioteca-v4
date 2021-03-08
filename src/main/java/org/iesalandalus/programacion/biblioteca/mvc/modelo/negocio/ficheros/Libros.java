@@ -52,7 +52,7 @@ public class Libros implements ILibros {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo abrir el fichero de libros.");
+			System.out.println("No puedo abrir el fichero libros.");
 
 		} catch (EOFException e) {
 
@@ -85,7 +85,7 @@ public class Libros implements ILibros {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo crear el fichero de libros.");
+			System.out.println("No puedo crear el fichero libros.");
 		} catch (IOException e) {
 
 			System.out.println("Error inesperado de Entrada/Salida.");

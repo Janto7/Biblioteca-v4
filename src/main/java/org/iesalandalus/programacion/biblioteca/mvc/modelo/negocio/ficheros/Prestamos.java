@@ -25,7 +25,7 @@ import org.iesalandalus.programacion.biblioteca.mvc.modelo.dominio.Prestamo;
 import org.iesalandalus.programacion.biblioteca.mvc.modelo.negocio.IPrestamos;
 
 public class Prestamos implements IPrestamos {
-	
+
 	private static final String NOMBRE_FICHERO_PRESTAMOS = "datos/prestamos.dat";
 
 	private List<Prestamo> coleccionPrestamos;
@@ -33,7 +33,7 @@ public class Prestamos implements IPrestamos {
 	public Prestamos() {
 		coleccionPrestamos = new ArrayList<>();
 	}
-	
+
 	@Override
 	public void comenzar() {
 
@@ -56,7 +56,7 @@ public class Prestamos implements IPrestamos {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo abrir el fichero de prestamos.");
+			System.out.println("No puedo abrir el fichero prestamos.");
 
 		} catch (EOFException e) {
 
@@ -89,7 +89,7 @@ public class Prestamos implements IPrestamos {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo crear el fichero de prestamos.");
+			System.out.println("No puedo crear el fichero prestamos.");
 		} catch (IOException e) {
 
 			System.out.println("Error inesperado de Entrada/Salida.");

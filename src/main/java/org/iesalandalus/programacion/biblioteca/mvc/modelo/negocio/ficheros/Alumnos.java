@@ -26,7 +26,6 @@ public class Alumnos implements IAlumnos {
 	public Alumnos() {
 
 		coleccionAlumnos = new ArrayList<>();
-
 	}
 
 	@Override
@@ -51,7 +50,7 @@ public class Alumnos implements IAlumnos {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo abrir el fichero de alumnos.");
+			System.out.println("No puedo abrir el fichero alumnos.");
 
 		} catch (EOFException e) {
 
@@ -84,7 +83,7 @@ public class Alumnos implements IAlumnos {
 
 		} catch (FileNotFoundException e) {
 
-			System.out.println("No puedo crear el fichero de alumnos.");
+			System.out.println("No puedo crear el fichero alumnos.");
 		} catch (IOException e) {
 
 			System.out.println("Error inesperado de Entrada/Salida.");
