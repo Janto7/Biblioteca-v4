@@ -206,7 +206,7 @@ public class VistaTexto implements IVista {
 	public void listarPrestamosLibro() {
 		Consola.mostrarCabecera("Listado de Prestamos por Libro");
 		try {
-			List<Prestamo> prestamos = controlador.getPrestamos(Consola.leerLibroFicticio());
+			List<Prestamo> prestamos = controlador.getPrestamos(Consola.leerLibro());
 			if (!prestamos.isEmpty()) {
 				for (Prestamo prestamo : prestamos) {
 					if (prestamo != null)
