@@ -127,5 +127,4 @@ public class Controlador implements IControlador {
 		return modelo.getEstadisticaMensualPorCurso(fecha);
 	}
 }
-/*
- */
+
